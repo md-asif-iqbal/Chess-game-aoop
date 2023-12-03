@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="root" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.77" prefHeight="390.0" prefWidth="337.0" spacing="80.0" style="-fx-background-color: #0E1A24;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="g58137.chess.view.MenuController">
+   <children>
+      <Button fx:id="playButton" maxHeight="50.0" maxWidth="168.0" mnemonicParsing="false" onAction="#play" prefHeight="45.0" prefWidth="168.0" style="-fx-background-color: #ececec;" text="Open Chess Game" textFill="#1c1d1e">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="11.0" />
+         </font>
+         <padding>
+            <Insets bottom="15.0" left="30.0" right="30.0" top="15.0" />
+         </padding>
+      </Button>
+      <Button fx:id="useButton" maxHeight="50.0" maxWidth="170.0" mnemonicParsing="false" onAction="#getConsole" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: #ececec;" text="Console for Testing" textAlignment="CENTER" textFill="#141515">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </Button>
+      <Button fx:id="exitButton" mnemonicParsing="false" onAction="#logout" prefHeight="48.0" prefWidth="175.0" style="-fx-background-color: #ececec;" text="EXIT" textFill="#1f2020">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+         <padding>
+            <Insets bottom="15.0" left="30.0" right="30.0" top="15.0" />
+         </padding>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
